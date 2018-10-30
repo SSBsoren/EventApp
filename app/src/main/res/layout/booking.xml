@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#e1e1e1">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/roundcorners"
+            android:padding="2dp" >
+
+            <WebView
+                android:id="@+id/bookings"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/roundcorners" />
+        </FrameLayout>
+    </LinearLayout>
